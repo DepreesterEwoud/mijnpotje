@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mission: Win Her Back 💘</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<main class="app">
+
+  <!-- INTRO -->
+  <section id="screen-intro" class="screen active">
+    <h1>Mission: Win Her Back 💘</h1>
+    <p>
+      Ik heb Valentijn niet aangepakt zoals jij verdient.
+      Daarom: een mini game. Als jij wint… krijg jij je prijs 😌
+    </p>
+    <button id="btn-start" class="btn">Start de missie</button>
+  </section>
+
+  <!-- GAME -->
+  <section id="screen-game" class="screen">
+    <header class="topbar">
+      <div>Matches: <span id="matches">0</span>/<span id="totalPairs">0</span></div>
+      <button id="btn-restart" class="btn secondary">Herstart</button>
+    </header>
+
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <!-- SORRY -->
+  <section id="screen-sorry" class="screen">
+    <h2>Oké… even serieus 🖤</h2>
+
+    <ul>
+      <li>Ik was niet lief zoals jij verdient.</li>
+      <li>Ik maakte geen echte moeite.</li>
+      <li>En dat was niet oké.</li>
+    </ul>
+
+    <p class="big">
+      Het spijt me. Echt.
+    </p>
+
+    <button id="btn-next" class="btn">Oké… wat heb ik gewonnen? 😏</button>
+  </section>
+
+  <!-- PRIZE -->
+  <section id="screen-prize" class="screen">
+    <h2>🎉 Proficiat!</h2>
+
+    <div class="prizeCard">
+      <img src="images/prize.jpeg" alt="Restaurant">
+      <div>
+        <h3>Een etentje bij <span id="restaurantName">Restaurant X</span></h3>
+        <p>
+          Datum: <strong id="dateText">Zaterdag ...</strong><br>
+          Tijd: <strong id="timeText">19:30</strong>
+        </p>
+      </div>
+    </div>
+
+    <button id="btn-replay" class="btn secondary">Nog eens spelen</button>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
