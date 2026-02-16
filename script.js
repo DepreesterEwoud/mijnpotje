@@ -17,7 +17,7 @@ const totalPairsEl = document.getElementById("totalPairs");
 const CONFIG = {
   pairs: [
     { id: "01", img: "images/01.jpg" },
-        { id: "02", img: "images/10.jpg" },
+    { id: "02", img: "images/10.jpg" },
     { id: "03", img: "images/03.jpg" },
     { id: "04", img: "images/04.jpg" },
     { id: "05", img: "images/05.jpg" },
